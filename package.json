@@ -1,0 +1,17 @@
+{
+  "name": "mock-xtream-server",
+  "version": "1.0.0",
+  "description": "Minimal mock of the Xtream Codes Player API for developing and testing IPTV client apps. Serves public-domain / Creative Commons sample content.",
+  "keywords": ["xtream", "xtream-codes", "iptv", "mock", "mock-server", "test", "player-api"],
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
